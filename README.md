@@ -6,7 +6,7 @@
 
 ### Installation
 
-👉 For ALX Cohort 13 members using the sandbox (web_term), follow these steps:
+👉 For members using the sandbox (web_term), follow these steps:
 
 1. Navigate to your root directory:
 
@@ -17,8 +17,8 @@ cd
 2. Clone the PyCodeStyle Checker repository and move to the directory:
 
 ```
-git clone https://github.com/RyuzakiiL23/PyCodeStyle_checker.git
-cd PyCodeStyle_checker
+git clone https://github.com/RyuzakiiL23/pycode_checker.git
+cd pycode_checker
 ```
 
 
@@ -40,7 +40,7 @@ chmod u+x install.sh
 nvim example.py
 ```
 
-6. Write your Python code in the file, then enter normal mode using the `<Esc>` key and type `<Space> <b> <e>` to activate the PyCodeStyle Checker.
+6. Write your Python code in the file, then enter normal mode using the `<Esc>` key and type `<Space> <p> <e>` to activate the PyCodeStyle Checker.
 
 ### Local Installation
 
@@ -55,8 +55,8 @@ sudo apt update && sudo apt upgrade
 2. Clone the PyCodeStyle Checker repository and navigate to it:
 
 ```
-git clone https://github.com/RyuzakiiL23/PyCodeStyle_checker.git
-cd PyCodeStyle_checker
+git clone https://github.com/RyuzakiiL23/pycode_checker.git
+cd pycode_checker
 ```
 
 3. Make the `local_install.sh` script executable:
@@ -77,7 +77,7 @@ chmod u+x local_install.sh
 nvim example.py
 ```
 
-6. Write your Python code in the file, then enter normal mode using the `<Esc>` key and type `<Space> <b> <e>` to activate the PyCodeStyle Checker.
+6. Write your Python code in the file, then enter normal mode using the `<Esc>` key and type `<Space> <p> <e>` to activate the PyCodeStyle Checker.
 
 ## Features ✨
 
@@ -97,17 +97,12 @@ nvim example.py
 
 2. In normal mode, press `<Esc>` to ensure you're not in insert mode.
 
-3. Type `<Space> <b> <e>` in sequence. This will activate the PyCodeStyle Checker.
+3. Type `<Space> <p> <e>` in sequence. This will activate the PyCodeStyle Checker.
 
 ## Stay Tuned!
 
 🌟 We are actively working on enhancing the PyCodeStyle Checker's functionalities and appearance. Future updates will include colorful visuals and additional key mappings for a more pleasant experience. Keep an eye out for these exciting improvements!
 
-## 🤝 VSCode Users
-
-📢 Check out this [VSCode extension](https://github.com/moufidayoub11/betty-extension) created by fellow ALX student [Ayoub Moufid](https://github.com/moufidayoub11). It's a convenient way to integrate the PyCodeStyle Checker directly into VSCode.
-
 ## Happy Coding! 🐍🚀
 
 With the PyCodeStyle Checker, maintaining PEP8 style in your Python code becomes a breeze. Give your Python projects a clean and consistent look while boosting your coding productivity. Remember to give the repository a star ⭐ to show your support!
-
