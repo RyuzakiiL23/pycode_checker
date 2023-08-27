@@ -6,6 +6,44 @@
 
 ### Installation
 
+⚠️ if You already installed [Betty_checker](https://github.com/RyuzakiiL23/Betty_checker/tree/main) follow those steps:
+
+1. Navigate to your root directory:
+
+```
+cd
+```
+
+2. Clone the PyCodeStyle Checker repository and move to the directory:
+
+```
+git clone https://github.com/RyuzakiiL23/pycode_checker.git
+cd pycode_checker
+```
+
+
+3. Make the `already_install.sh` script executable:
+
+```
+chmod u+x already_install.sh
+```
+
+4. Run the installation script to set up dependencies:
+
+```
+sudo ./already_install.sh
+```
+
+5. Start testing by creating a Python file and opening it with `nvim`:
+
+```
+nvim example.py
+```
+
+6. Write your Python code in the file, then enter normal mode using the `<Esc>` key and type `<Space> <p> <e>` to activate the PyCodeStyle Checker.
+
+⚠️ the following steps u can use them only if u didnt install yet [Betty_checker](https://github.com/RyuzakiiL23/Betty_checker/tree/main)
+
 👉 For members using the sandbox (web_term), follow these steps:
 
 1. Navigate to your root directory:
